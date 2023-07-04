@@ -391,26 +391,26 @@ footer-menu
     padding   : 79px 0px 76px 37px;
 }
 
-.footer-menu .nav-menu {
+.footer-menu .menu {
     display    : flex;
     align-items: center;
 }
 
 /* logo */
-.footer-menu .nav-menu .logo {
+.footer-menu .menu .logo {
     font-size     : 28px;
     font-weight   : 800;
     line-height   : normal;
     letter-spacing: 0.827px;
 }
 
-.footer-menu .nav-menu .logo a {
+.footer-menu .menu .logo a {
     margin-top   : 5px;
     margin-bottom: 8px;
 }
 
 /* option */
-.footer-menu .nav-menu .nav-menu-content {
+.footer-menu .menu .menu-content {
     display       : flex;
     align-items   : center;
     margin-left   : 71px;
@@ -419,6 +419,6 @@ footer-menu
     letter-spacing: 0.532px;
 }
 
-.footer-menu .nav-menu .nav-menu-content li {
+.footer-menu .menu .menu-content li {
     margin-right: 32px;
 }
