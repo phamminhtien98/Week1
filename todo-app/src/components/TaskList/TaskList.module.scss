@@ -1,0 +1,53 @@
+.taskList {
+  margin-bottom: 1rem;
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .content {
+      label {
+        font-size: 1.8rem;
+        margin-left: 1rem;
+      }
+      input[type="text"] {
+        width: 100%;
+        border: 1px solid #5e5e5e3f;
+        border-radius: 10px;
+        padding: 5px;
+      }
+    }
+    .btnContainer {
+      margin-bottom: 1rem;
+      min-width: 140px;
+      text-align: right;
+      .btnAction {
+        margin-left: 0.5rem;
+        border: none;
+        padding: 5px;
+        font-size: 1.8rem;
+        border-radius: 5px;
+        cursor: pointer;
+        box-shadow: 1px 2px 1px 0px rgb(0, 0, 0, 0.3);
+      }
+      .btnAction:last-child {
+        margin-left: 0.5rem;
+      }
+    }
+  }
+}
+
+.btnSuccess {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btnWarning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.btnDanger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
